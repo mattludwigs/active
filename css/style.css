@@ -1,0 +1,463 @@
+/* Styles */
+
+/* Type 
+============== */
+
+@font-face {
+	font-family: 'Mensch-lite';
+	src: url('../fonts/mensch-thin-wf.woff') format('woff'); /* Chrome 6+, Firefox 3.6 +, IE 9+, Safari 5.1 */
+	src: url('../fonts/mensch-thin.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safarti 3-5 */
+}
+
+
+@font-face {
+	font-family: "Gothomlite";
+	src: url('../fonts/GothaLig.otf') format('opentype'); /* all but IE */
+}
+/* Global
+============= */
+
+
+/* Margin and Padding Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background: url('../images/homeimg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	overflow:hidden;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 2.2%;
+}
+
+a,
+h1,
+p,
+h2,
+li {
+	font-family: 'Mensch-lite';
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	color:white;
+	font-size: 1.8em;
+	text-decoration: none;
+}
+
+/*a:hover,*/
+#about-nav:hover,
+#find-nav:hover,
+#stories-nav:hover {
+	 border-top: 1px solid white;
+	 padding-top: 8px;
+}
+
+
+/* Classes
+============ */
+.a-special {
+	font-size: 75px;
+}
+
+.a-special_2 {
+	font-size: 45px;
+}
+
+.line {
+	width: 24px;
+	height: 2px;
+	background-color: white;
+}
+
+.main {
+	margin-left: 1.4%;
+}
+
+.sub {
+	width: 17px;
+	height: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+}
+
+.holder {
+ 	width: 300px;
+ 	display: block;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.email {
+	font-family: "Gothomlite";
+	font-size: 16px;
+}
+
+/* 
+* 
+* Arrow Class 
+*
+*/
+
+/* top arrow */
+
+.top-tri {
+	width: 0; 
+	height: 0; 
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 250px solid white; 
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: 	 rotate(-45deg);
+	-o-transform:      rotate(-45deg);
+	transform:         rotate(-45deg);
+	margin-top: -41px;
+	margin-left: -190px;
+}
+
+.bottom-tri {
+	position: absolute;
+	bottom: -10px;
+	right:0;
+
+}
+.bottom-tri img {
+	width: 200px;
+	height: 200px;
+}
+
+
+
+/* Nav
+========== */
+
+#logo-img {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: 	 rotate(45deg);
+	-o-transform:      rotate(45deg);
+	transform:         rotate(45deg);
+	margin-top: 65px;
+	margin-left: -75px;
+	height: 180px;
+	width: 180px;
+}
+
+nav {
+	padding-top: 2%;
+	margin-left: 320px;
+	margin-top: -210px;
+	position: relative;
+	border: none;
+}
+
+#nav-ul {
+	z-index: 3;
+}
+
+
+/* Main Content Areas
+====================== */
+
+.center-h {
+	width: 230px;
+	margin: 18% auto 0;
+}
+
+
+.a-div h1 {
+	font-size: 5.5em;
+	margin-bottom: 0;
+	letter-spacing: 3px;
+	font-weight: normal;
+	cursor: default;
+}
+#tagline {
+	font-size: 3em;
+	margin-top: -7px;
+	display: none;
+	cursor: default;
+	text-align: center;
+	padding-top: 2.4%;
+	margin-bottom: 0;
+}
+
+/*
+*
+* Fader 
+*
+*/
+
+/* 
+*
+*	About page 
+*
+*/
+
+#about-info {
+	display: none;
+	font-family: "Gothomlite";
+	width: 28%;
+	margin-top: 0;
+	line-height: 1.4em;
+	margin-left: 8%;
+	border: none;
+}
+
+#about-heading {
+	width: 20%;
+	margin-left: 8%;
+	margin-top: 16%;
+	margin-bottom:10px;
+	display: none;
+}
+
+#about-heading  p {
+	font-size: 'Mensch-lite';
+	text-transform: uppercase;
+	font-size: 3em;
+	margin-bottom: 0;
+}
+
+.about-info2 {
+	display: none;
+	font-family: "Gothomlite";
+	width:30%;
+	line-height: 1.4em;
+	margin-left: 8%;
+}
+#sponsers {
+		margin-left: 8%;
+		margin-top: 15px;
+		margin-bottom: 0;
+		display: none;
+}
+#sponsers img,
+#sponsers2 img {
+	width: 60px;
+	height: 40px;
+	margin-right: 50px;
+	display: inline-block;
+}
+
+#sponsers a:hover {
+	border: none;
+}
+
+
+
+/*
+*
+* Find Page
+*
+*/
+
+.sports {
+	display: none;
+	margin: 18% auto 0;
+	text-align: center;
+}
+
+.sports-2 {
+	display: none;
+	margin: 0 auto;
+	width: 900px;
+}
+
+.sport-name {
+	margin-top: 5px;
+}
+
+.sports-2 li:first-child {
+	margin-left: 27px;
+}
+
+.sports-2 li:nth-child(2) {
+	margin-left: 31px;
+}
+.sports-2 li:nth-child(3) {
+	margin-left: 43px;
+}
+.sports-2 li:nth-child(4) {
+	margin-left: 66px;
+}
+.sports-2 li:nth-child(5) {
+	margin-left: 52px;
+}
+.sports-2 li:nth-child(6) {
+	margin-left: 37px;
+}
+#soccer {
+	width:80px;
+	height: 80px;
+}
+
+#basket {
+	width:90px;
+	height: 90px;
+}
+
+#baseball {
+	width: 75px;
+	height: 75px;
+}
+
+#tenis {
+	width: 55px;
+	height: 55px;
+}
+
+#football {
+	width: 105px;
+	height: 75px;
+}
+
+#volley {
+	width: 75px;
+	height: 75px;
+}
+
+
+#finder-search {
+	height: 200px;
+	width: 500px;
+	margin: 15% auto 0;
+	display: none;
+	background-color: white;
+	opacity: .6;
+}
+#hidden-box {
+	height: 40px;
+	width: 190px;
+	margin-top: -20px;
+	background-color: white;
+	opacity: .6;
+	float: right;
+	display: none;
+}
+#hidden-box p {
+	color:black;
+	font-size: 1.8em;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 8px 0 0 7px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid #8c8c8c;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	width: 90%;
+	font-size: 30px;
+	font-family: "Mensch-lite";
+	color: black;
+}
+
+input:focus {
+	outline: none;
+}
+
+#toggle-x {
+	display: block;
+	color: #575757;
+	float: right;
+	font-family: "Mensch-lite";
+	font-size: 2em;
+	padding-top: 3%;
+	padding-right: 3%;
+	cursor: pointer;
+}
+
+#zip-header {
+	color: #575757;
+	font-size: 2.5em;
+	padding-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+#club-header {
+	display: none;
+	left: 90px;
+	font-size: 3em;
+	top:340px;
+	position: absolute;
+}
+
+#club-listing {
+	display: none;
+	left:92px;
+	bottom:80px;
+	position: absolute;
+}
+
+#club-listing a.list-show {
+	display: block;
+	margin-bottom: 10%;
+	font-size: 1.8em;
+}
+
+
+/*
+*
+* Video
+*
+*/
+
+
+video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	background: url(../images/stories.jpg) no-repeat;
+	display: none;
+}
+
+#sponsers2 {
+	display: none;
+	position: absolute;
+	bottom:10px;
+	left:40px;
+}
+#sponsers2 img {
+	width: 42px;
+	height: 42px;	
+}
+
+#sponsers2 img:nth-child(2) {
+	width:90px;
+	height: 42px;
+}
+/* Media Queries
+================== */
+
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+</head>	
+<body>
+
+<h1>Work</h1>
+
+<p></p>
+
+	<!-- Scripts -->
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script>
+	
+(function() {
+
+	$.getJSON('js/zip.json', function(data) {
+		console.log(data.zips[1]);
+		$('p').text(data.zips[1].city);
+	}); // getJSON
+
+
+})(); // Function
+
+</script>
+
+
+<body>	
+</html>

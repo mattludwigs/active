@@ -1,0 +1,19 @@
+{
+    "zips": [
+        {
+            "city": "Chandler",
+            "zip": 85225,
+            "clubs": ["// AYS", "// AZY", "// AGAF", "// RAK", "// USAV", "// YMCA"]
+        },
+        {
+            "city": "Tempe",
+            "zip": 85280,
+            "clubs": ["// YMCA", "// USAV", "// RAK", "// AZY", "// KJV"]
+        },
+        {
+            "city": "Mesa",
+            "zip": 85210,
+            "clubs": ["// YMCA","// RAK", "// USAV", "// AZY", "// KJV", "// YSA"]
+        }
+    ]
+}
