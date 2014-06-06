@@ -1,6 +1,6 @@
-Designed this prototype website for a design expo
+Developed this prototype website for a design expo
 
-Due to the prototype nature of this site, it is not responsive and is best on Chrome. Anything else was considered out of scope for a prototype
+Due to the prototype nature of this site, it is not responsive and is best in Chrome at fullscreen on a 15 inch screen. Anything else was considered out of scope for a prototype
 
 Some features:
 1. Single Page Application
